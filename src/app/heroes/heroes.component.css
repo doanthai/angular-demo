@@ -1,0 +1,41 @@
+.hero-list h3 {
+  font-size: 18px;
+  color: cadetblue;
+}
+.heroes {
+  list-style-type: none;
+}
+.heroes li {
+  font-size: 15px;
+  padding: 10px 0;
+  color: black;
+  margin-bottom: 3px;
+  background: #ededee;
+  transition-duration: 0.5s;
+  transition-property: padding-left;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.heroes li .badge {
+  color: #fff;
+  background: #5d7c8a;
+  padding: 10px 12px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.heroes li:hover, selected-hero {
+  background: #cdd7db;
+  color: #fff;
+}
+
+.hero-add-form input[type=submit] {
+  padding: 10px 20px;
+  background: blue;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+input:focus {
+  outline: none;
+}
