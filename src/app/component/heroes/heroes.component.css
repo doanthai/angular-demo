@@ -23,7 +23,7 @@
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-.heroes li:hover, selected-hero {
+.heroes li:hover, .selected-hero {
   background: #cdd7db;
   color: #fff;
 }
